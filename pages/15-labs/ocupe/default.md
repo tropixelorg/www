@@ -15,6 +15,8 @@ Para marcar o último dia de atividades gratuitas e abertas ao grande público (
 OCUPE conta com apoio da Fundart, Espaço Convívio das Artes, Kantuck, Espaço Antera, Lab Experimental e Gaivota FM.
 Preparativos e recomendações
 
+![](ocupe.png)
+
 Vamos para a praça! Começaremos por volta das 14h. Preste atenção na lista do que recomendamos levar:
 
     Cangas
