@@ -146,4 +146,3 @@ E alguns dos espaços em que as propostas acima serão desenvolvidas (outros pod
 * Ônibus Hacker - Etec (23/10, 13h), Praça de Eventos de Ubatuba (24/10, 13h), Terminal Turístico do Perequê-Açu (25/10, 13h). Oficinas, debates e projetos experimentais;
 * Labmóvel / Coletivo Passarola, biocosmistas, astroescutadores e mapeadores aéreos - Debates e oficinas sobre mapeamento e cultura espacial;
 * Oficinas, intervenções, trabalho de campo, mapeamento de ciclovias e outras atividades nas ruas e bairros da cidade.
-* 
