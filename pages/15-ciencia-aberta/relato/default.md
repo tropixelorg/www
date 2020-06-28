@@ -16,7 +16,7 @@ A edição de junho, batizada de Tropixel Ciência Aberta, foi concebida em parc
 
 ![](jardim.jpg)
 
-A programação incluiu dois dias de oficinas de hardware científico aberto na Etec - Centro Paula Souza de Ubatuba; um painel de apresentações e debates sobre experiências de ciência aberta com duração de uma tarde no auditório do Aquário de Ubatuba; e por fim dois dias de um laboratório experimental #mozsprint, conectado ao Mozilla Science Global Sprint, acontecendo no Jardim Cultural.
+A programação incluiu dois dias de oficinas de hardware científico aberto na Etec - Centro Paula Souza de Ubatuba; um painel de apresentações e debates sobre experiências de ciência aberta com duração de uma tarde no auditório do Aquário de Ubatuba; e por fim dois dias de um laboratório experimental #mozsprint, conectado ao [Mozilla Science Global Sprint](https://wiki.mozilla.org/ScienceLab), acontecendo no Jardim Cultural.
 
 ![](aquario.jpg)
 
@@ -28,7 +28,7 @@ Nos dias 1 e 2 de junho, o Tropixel Ciência Aberta recebeu uma oficina de Guima
 
 ![](maedagua.jpg)
 
-Ao longo dos dois dias, os participantes - grande parte deles estudantes de ensino técnico - tiveram a oportunidade de desenvolver seus próprios sensores simples de condutividade elétrica, utilizando componentes acessíveis e de baixo custo com base em um projeto do Public Lab. A plataforma Ciência Aberta Ubatuba também aproveitou para fazer uma pequena pesquisa sobre o perfil dos participantes, cujos resultados serão publicados nos próximos dias.
+Ao longo dos dois dias, os participantes - grande parte deles estudantes de ensino técnico - tiveram a oportunidade de desenvolver seus próprios sensores simples de condutividade elétrica, utilizando componentes acessíveis e de baixo custo com base em um projeto do [Public Lab](http://publiclab.org/wiki/555-conductivity-meter). A plataforma Ciência Aberta Ubatuba também aproveitou para fazer uma pequena pesquisa sobre o perfil dos participantes, cujos resultados serão publicados nos próximos dias.
 
 ![](estudantes.jpg)
 
@@ -46,7 +46,7 @@ A primeira mesa, coordenada por Sarita Albagli (IBICT), teve por tema "Territór
 
 ![](mergulhador.jpg)
 
-Com o tema "Fronteiras abertas", a segunda sessão, coordenada por Henrique Parra (Unifesp) trouxe as experiências de Cândido Moura (Ubatubasat); Rachel Jacobs (Active Ingredient); Jorge Machado (Colab/USP); Juliana Bussolotti (Associação Cunhambebe); Guima-san (Infoamazônia) e Luciana Fleischman (Tropixel). Os vídeos das apresentações estão disponíveis na página wiki do evento.
+Com o tema "Fronteiras abertas", a segunda sessão, coordenada por Henrique Parra (Unifesp) trouxe as experiências de Cândido Moura (Ubatubasat); Rachel Jacobs (Active Ingredient); Jorge Machado (Colab/USP); Juliana Bussolotti (Associação Cunhambebe); Guima-san (Infoamazônia) e Luciana Fleischman (Tropixel). Os vídeos das apresentações estão disponíveis na [página wiki do evento](https://pt.wikiversity.org/wiki/Pesquisa:Ci%C3%AAncia_Aberta_Ubatuba/Tropixel_Ci%C3%AAncia_Aberta).
 
 ## Laboratório #mozsprint
 
@@ -57,10 +57,10 @@ Os dois últimos dias do Tropixel Ciência Aberta tinham a proposta de abrir esp
 Em Ubatuba, o lab teve diversos eixos de atuação:
 
 * levantamento de dados científicos sobre Ubatuba em sistemas e acervos disponíveis na internet, mobilizado por Capi Etheriel (Transparência Hacker) e André Appel (Liinc/IBICT-UFRJ);
-* "hackeamento" dos equipamentos e sensores trazidos pela artista britânica Rachel Jacobs, que fazem parte da obra Prediction Machine, e a exploração de pontos de contato com as pesquisas de Guima-san para o Infoamazônia e outros projetos. Participaram também Leandro Ramalho e outros integrantes do Arduino Ubatuba, além de membros do Estúdio Avante;
+* "hackeamento" dos equipamentos e sensores trazidos pela artista britânica Rachel Jacobs, que fazem parte da obra [Prediction Machine](http://www.thepredictionmachine.org/), e a exploração de pontos de contato com as pesquisas de Guima-san para o Infoamazônia e outros projetos. Participaram também Leandro Ramalho e outros integrantes do Arduino Ubatuba, além de membros do [Estúdio Avante](https://github.com/avanteweb/);
 * entrevistas em vídeo sobre temas ligados à ciência aberta com convidados do evento, capitaneadas por Henrique Parra (Unifesp), Sarita Albagli (IBICT) e Juliana Andrade (Pimentalab);
 * oficinas de bioexperimentos elétricos, que utilizaram legumes e outros vegetais como fonte de energia, propostas por Filipe Machado e Marrytsa Melo;
-* edição colaborativa de Guias para Ciência Aberta, coordenada por Luciana Fleischman (Tropixel), Alexandre Abdo (OKBr) e Sarita Albagli (IBICT);
+* edição colaborativa de [Guias para Ciência Aberta](https://pt.wikiversity.org/wiki/Manual_para_Ci%C3%AAncia_Aberta), coordenada por Luciana Fleischman (Tropixel), Alexandre Abdo (OKBr) e Sarita Albagli (IBICT);
 * oficina de geoprocessamento utilizando o software livre qgis, oferecida pelos estudantes de gestão territorial da UFABC, sob coordenação de Maira Begalli;
 * apresentação, por Jutta Machado (Colab), de aplicativo de pesquisa de opinião de base comunitária, para empoderamento local e subsídio a políticas públicas, desenvolvido pelo MIT;
 * sessão de brainstorm e construção coletiva a partir de questões trazidas por Felipe Spina (Mosaico Bocaina), para desenvolvimento de ferramentas de produção participativa e comunitária de informações de monitoramento e alerta ambiental.
