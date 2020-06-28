@@ -6,6 +6,8 @@ show_header_image: false
 show_clickthrough: true
 ---
 
+![](https://wiki.ubatuba.cc/lib/exe/fetch.php?media=tropixel:logo-tropixel-20.png)
+
 *Tropixel é uma rede colaborativa atuando na fronteira entre arte, ciência, tecnologia e sociedade.*
 
 ##Histórico
