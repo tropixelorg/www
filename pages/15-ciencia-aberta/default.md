@@ -6,11 +6,13 @@ show_header_image: false
 show_clickthrough: true
 ---
 
+![](tro-ca.png)
+
 Semana de atividades e debates sobre ciência aberta, dentro do Festival da Mata Atlântica em Ubatuba.
 
 Tropixel Ciência Aberta foi uma programação desenvolvida pela rede Tropixel e pela plataforma Ciência Aberta Ubatuba dentro do Festival da Mata Atlântica no início de junho de 2015, em Ubatuba. Consistiu em oficinas, debates e um laboratório temporário trabalhando temas como o acesso a dados científicos, a relação entre ciência e desenvolvimento, ferramentas colaborativas em rede e equipamentos científicos abertos.
 
-Acesse este [relato](relato), esta página wiki, esta lista de vídeos e esta coleção de fotos para saber mais sobre como foi o Tropixel Ciência Aberta. E fique de olho no nosso próximo evento - Tropixel Labs, que acontece em outubro de 2015.
+Acesse este [relato](relato), esta [página wiki](https://pt.wikiversity.org/wiki/Pesquisa:Ci%C3%AAncia_Aberta_Ubatuba/Tropixel_Ci%C3%AAncia_Aberta), esta [lista de vídeos](https://www.youtube.com/playlist?list=PL4qxxbzI7iyRr_wvo1GK-AgEpCSz8JsdE) e esta [coleção de fotos](https://www.flickr.com/photos/felipefonseca/sets/72157654730781695/) para saber mais sobre como foi o Tropixel Ciência Aberta. E fique de olho no nosso próximo evento - [Tropixel Labs](../15-labs), que acontece em outubro de 2015.
 
 1. Oficina Hardware Científico Aberto
 
