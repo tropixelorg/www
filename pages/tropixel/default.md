@@ -6,7 +6,7 @@ show_header_image: false
 show_clickthrough: true
 ---
 
-*Tropixel é uma rede colaborativa focada atuando na fronteira entre arte, ciência, tecnologia e sociedade.*
+*Tropixel é uma rede colaborativa atuando na fronteira entre arte, ciência, tecnologia e sociedade.*
 
 ##Histórico
 
