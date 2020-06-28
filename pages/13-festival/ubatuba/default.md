@@ -17,7 +17,7 @@ Programação pública do Festival Tropixel 2013 em Ubatuba. Todas as atividades
 - 19h00 Abertura oficial com Felipe Fonseca (Ubalab), Raquel Rennó (PAEC/UFJF), Mikko Lipiäinen (Pixelache, Finlândia), Álvaro Gonçalves (ETEC - Centro Paula Souza), Maurício Moromizato (Prefeito de Ubatuba), Kailash Pinotti (Atmosfera Desenvolvimento Imobiliário) e Américo Córdula (SPC/Ministério da Cultura).
 - 19h30 Painel Políticas Culturais e Transformação Social, com Américo Córdula e a participação remota de Célio Turino.
 
-2. Seminário Sincronizando - 22/10, Escola Técnica - Centro Paula Souza (prédio da Unitau). [Saiba mais](sincronizando).
+2. Seminário Sincronizando - 22/10, Escola Técnica - Centro Paula Souza (prédio da Unitau). [Saiba mais](../sincronizando).
 
 -  13h30 Painel A Cidade como Laboratório Experimental com Felipe Fonseca (Ubalab), Fabricio Muriana (Arquitetura da Gentrificação) e Julien Bellanger (PiNG, França). Moderação Lula Fleischman (Nuvem).
 - 14h30 Painel Lixo Eletrônico e Cultura do Conserto com James Wallbank (Access Space, Inglaterra) e Alex Garcia (Fab Social). Moderação Hernani Dimantas (Lixo Eletrônico).
@@ -27,7 +27,7 @@ Programação pública do Festival Tropixel 2013 em Ubatuba. Todas as atividades
 - 19h Painel Turismo Sustentável com Kelly Lima (ICEI Brasil), Nei (Secretaria de Turismo de Ubatuba) e Instituto Polis/Projeto Litoral Sustentável.
 - 20h30 Planejamento Colaborativo da agenda do Lab Experimental.
 
-3. O Lab Experimental Temporário (23 e 24/10) Veja a [programação detalhada](labxt)
+3. O Lab Experimental Temporário (23 e 24/10) Veja a [programação detalhada](../labxt)
 
 - Eteclab - Etec - Centro Paula Souza de Ubatuba - prédio da Unitau (22 a 25/10). Oficinas de tecnologias livres, installfest e demonstração de projetos;
 - Quilombo da Fazenda - (23/10, 13h) reativação do Telecentro.br; debate Pé na Terra, Cabeça na Rede; oficinas de pesquisa e comunicação digital;
@@ -42,7 +42,7 @@ Programação pública do Festival Tropixel 2013 em Ubatuba. Todas as atividades
 
 - Programação em parceria com a Prefeitura Municipal de Ubatuba, debatendo planos e projetos de tecnologia para a cidade. Com Maurício Moromizato (Prefeito de Ubatuba), Felipe Fonseca (Ubalab), Álvaro Gonçalves (ETEC - Centro Paula Souza), Pedro Seno (Assessoria de TI da Prefeitura), Cândido Moura (Coordenador do Projeto UbatubaSat).
 
-5. OCUPA. (25/10) - Ocupação Cultural do Perequê-Açu, encontro de encerramento do Festival Tropixel. [Saiba mais](ocupa).
+5. OCUPA. (25/10) - Ocupação Cultural do Perequê-Açu, encontro de encerramento do Festival Tropixel. [Saiba mais](../ocupa).
 
 - 14h às 20h. Programação definida colaborativamente: Palco aberto, Espaço de projeção, Feira de Artes e Cultura, Exposição, Telecentro e Vão livre.
 
@@ -56,7 +56,7 @@ Uma grande proporção da população utiliza bicicletas como meio de transporte
 
 Uma leitura otimista aponta para um futuro promissor, com alta qualidade de vida, justiça social e sustentabilidade. Entretanto, algumas questões importantes exigem atenção. Entre elas a alta evasão de talentos devido à falta de alternativas após a conclusão do ensino médio; a baixa auto-estima sentida por todos os estratos da população; a distribuição desigual dos resultados da exploração comercial de suas atrações turísticas e naturais; e a relação problemática da sociedade com seu território, pela falta de mecanismos claros de regulação e conciliação entre usos tradicionais de recursos naturais e preservação ambiental. Uma questão particularmente complexa é a gestão do lixo, que precisa ser exportado, percorrendo mais de 160km de estrada.
 
-BicicletasEm tal cenário, mais importante do que aplicar uma cartilha pronta de soluções é imaginar futuros diferentes. Igualmente prioritário é identificar, valorizar e apoiar talentos locais, promovendo seu pleno desenvolvimento a partir do intercâmbio e do aprofundamento conceitual e técnico. A proposta do Festival Tropixel em Ubatuba, articulado pelo núcleo Ubalab em parceria com uma comissão organizadora com abrangência nacional, é atuar nesta encruzilhada, proporcionando um intenso processo de troca e construção colaborativa entre iniciativas locais e propostas de diferentes lugares do Brasil e do mundo.
+Em tal cenário, mais importante do que aplicar uma cartilha pronta de soluções é imaginar futuros diferentes. Igualmente prioritário é identificar, valorizar e apoiar talentos locais, promovendo seu pleno desenvolvimento a partir do intercâmbio e do aprofundamento conceitual e técnico. A proposta do Festival Tropixel em Ubatuba, articulado pelo núcleo Ubalab em parceria com uma comissão organizadora com abrangência nacional, é atuar nesta encruzilhada, proporcionando um intenso processo de troca e construção colaborativa entre iniciativas locais e propostas de diferentes lugares do Brasil e do mundo.
 
 ## Recomendações
 
