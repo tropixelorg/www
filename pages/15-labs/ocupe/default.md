@@ -41,7 +41,7 @@ Todos os planos abaixo podem e serão modificados durante a ocupação. Procure 
 Agendados
 
     14h Arduinoise - Criação de instrumentos musicais com Arduino e eletrônicos acessíveis, com Caleb Mascarenhas
-    14h-16h Oficina Inspirador: dá pra fazer produção cultural de outro jeito - INSCREVA-SE para garantir sua vaga (são somente vinte)
+    14h-16h Oficina [Inspirador](http://www.goethe.de/ins/br/lp/pro/Inspirador.pdf): dá pra fazer produção cultural de outro jeito - INSCREVA-SE para garantir sua vaga (são somente vinte)
     16h Debate espaço público
         Arte Bicicleta Mobilidade - Fabs Balvedi (PR)
         Tropixel OCUPE - Felipe Fonseca
@@ -54,7 +54,7 @@ Agendados
 Continuados/ideias soltas
 
     Lambe OCUPE nos postes do entorno da praça (FF leva impressora)
-    Oficina Spirograffe com Julien Bellanger
+    Oficina [Spirograffe](https://fablabo.net/wiki/Spirogaffe) com Julien Bellanger
     Modificações na infraestrutura da praça:
         Acesso a carrinhos/cadeirantes
         Jogo de amarelinha
