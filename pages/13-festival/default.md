@@ -34,12 +34,15 @@ Escola Técnica de Ubatuba - Centro Paula Souza, Escola Municipal Tancredo de Al
 
 - Atmosfera Desenvolvimento Imobiliário
 - CAPES / Ministério da Educação / Governo Federal
-- Auswärtiges Amt - Ano Alemanha Brasil 2013-2014
+- Ano Alemanha-Brasil 2013-2014 - Auswärtiges Amt
 
 ### Apoio
 
+- Prefeitura Municipal de Ubatuba
+- COMTUR
 - Gaivota FM
 - Hostel Vila Brasil
 - Ecotrip Hostel
+- Green Haven Hostel
 - Padaria Integrale
 - Associação Comercial de Ubatuba
