@@ -8,7 +8,7 @@ show_clickthrough: true
 
 ## O Festival
 
-O Festival Tropixel – Arte, Ciência, Tecnologia e Sociedade reuniu em outubro de 2013 artistas, cientistas, ativistas e pesquisadores de diferentes lugares do Brasil e do mundo em  Juiz de Fora e Ubatuba. Realizou-se de 17 a 19 de outubro (Juiz de Fora) e 21 a 25 de outubro (Ubatuba), abrangendo a Semana Nacional de Ciência e Tecnologia. A intenção da rede Tropixel, parceira brasileiro da rede de eventos internacionais [Pixelache](https://pixelache.ac/), é articular criticamente particularidades brasileiras na fronteira entre cultura e tecnologia - por um lado com referências científicas e teóricas, e por outro com práticas experimentais contemporâneas - em busca de futuros justos, sustentáveis e includentes.
+O Festival Tropixel – Arte, Ciência, Tecnologia e Sociedade reuniu em outubro de 2013 artistas, cientistas, ativistas e pesquisadores de diferentes lugares do Brasil e do mundo em [Juiz de Fora](juiz-de-fora) e [Ubatuba](ubatuba). Realizou-se de 17 a 19 de outubro (Juiz de Fora) e 21 a 25 de outubro (Ubatuba), abrangendo a Semana Nacional de Ciência e Tecnologia. A intenção da rede Tropixel, parceira brasileiro da rede de eventos internacionais [Pixelache](https://pixelache.ac/), é articular criticamente particularidades brasileiras na fronteira entre cultura e tecnologia - por um lado com referências científicas e teóricas, e por outro com práticas experimentais contemporâneas - em busca de futuros justos, sustentáveis e includentes.
 
 Saiba mais:
 
