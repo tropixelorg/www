@@ -12,11 +12,9 @@ O Festival Tropixel – Arte, Ciência, Tecnologia e Sociedade reuniu em outubro
 
 Saiba mais:
 
-- [Eixos temáticos](eixos-tematicos) do Tropixel 2013;
+- [Eixos temáticos](eixos) do Tropixel 2013;
 - [Cobertura na imprensa](imprensa) e relatos de participantes;
-- [Chamada](chamada) por propostas de participação;
 - Programação em [Ubatuba](ubatuba);
-- [Informações práticas](info);
 - [Convidadxs](pessoas);
 - [Apoio](apoio).
 
