@@ -11,7 +11,7 @@ Tropixel Labs é a quarta edição do evento que trabalha na fronteira entre art
 ### 22/10, Quinta-feira
 
 - 10h em diante, Oficina [Estações Meteorológicas Modulares](http://cta.if.ufrgs.br/projects/suporte-cta/wiki/Atividades_do_CTA_no_Tropixel_Labs) na Escola Tancredo Neves - Oferecida por CTA (IF/UFRGS), Ubalab e Arduino Ubatuba. Atividade reservada a estudantes e curiosos.
-- 14h - 18h, [Rodada Ciência Aberta Ubatuba](rodada-ca), no auditório da Escola Tancredo Neves (Av. Rio Grande do Sul 600, Centro). Debate aberto, organizado pela plataforma Ciência Aberta Ubatuba. Atividade gratuita e aberta a todos os interessados. Entre os participantes estão:
+- 14h - 18h, [Rodada Ciência Aberta Ubatuba](rodada), no auditório da Escola Tancredo Neves (Av. Rio Grande do Sul 600, Centro). Debate aberto, organizado pela plataforma Ciência Aberta Ubatuba. Atividade gratuita e aberta a todos os interessados. Entre os participantes estão:
         Lara Legaspe (Pesquisadora);
         Patrícia Menezes (Observatório Litoral Sustentável);
         Pedro Oliva (APA Marinha do Litoral Norte);
