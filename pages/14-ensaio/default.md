@@ -15,7 +15,7 @@ O texto original desta página dizia o seguinte:
 > "Cada Ensaio Tropixel é um evento de curta duração, focado em temas específicos. Damos ênfase à produção prática e colaborativa de projetos coletivos que condensam reflexão, experimentação e transformação social. Os Ensaios Tropixel buscam espaços de troca entre especialistas em diversas áreas para articular características de Ubatuba com possibilidades contemporâneas.
 > A primeira edição do Ensaio Tropixel em Ubatuba aconteceu em abril de 2014, organizado pelo Ubalab em parceria com Labmovel e apoio da Escola Técnica Municipal Tancredo de Almeida Neves e do Hostel Ecotrip."
 
-O primeiro Ensaio Tropixel aconteceu em Ubatuba, em abril de 2014. Foi organizado pelo Ubalab, em parceria com Labmovel. Consistiu em uma série de iniciativas voltadas a cartografias e mapeamento, monitoramento ambiental comunitário e colaboração em rede com foco na água. Leia aqui um relato abrangente das atividades desenvolvidas.
+O primeiro Ensaio Tropixel aconteceu em Ubatuba, em abril de 2014. Foi organizado pelo Ubalab, em parceria com Labmovel. Consistiu em uma série de iniciativas voltadas a cartografias e mapeamento, monitoramento ambiental comunitário e colaboração em rede com foco na água. Leia [aqui um relato abrangente](https://ubalab.github.io/blog/ensaio-tropixel-1-relato) das atividades desenvolvidas.
 Programação
 
 Hardware Livre e Sensores
