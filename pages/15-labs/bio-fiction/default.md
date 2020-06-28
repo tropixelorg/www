@@ -1,5 +1,5 @@
 ---
-title: 'Mostra Bio-fiction'
+title: '1Mostra Bio-fiction'
 allowCSS: default
 allowJS: default
 show_header_image: false
@@ -7,6 +7,8 @@ show_clickthrough: true
 ---
 
 A mostra de vídeos [Bio-fiction](https://bio-fiction.com/) explora o campo emergente da biologia sintética a partir de diferentes perspectivas disciplinares incluindo a ciência e engenharia, os estudos culturais, a biologia amadora, e os campos de videomakers, artistas e designers.
+
+![](bio-fiction.png)
 
 Organização da mostra em Ubatuba: Karla Brunet (UFBA).
 
