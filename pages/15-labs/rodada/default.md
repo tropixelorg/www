@@ -1,12 +1,10 @@
 ---
-title: Rodada
+title: 'Rodada Ciência Aberta'
 allowCSS: default
 allowJS: default
 show_header_image: false
 show_clickthrough: true
 ---
-
-
 
 Com o objetivo de criar um espaço de diálogo entre os diferentes atores que atuam com produção de conhecimento em Ubatuba e região, a plataforma Ciência Aberta Ubatuba realiza no dia 22/10 (14h às 18h) a Rodada Ciência Aberta. A iniciativa faz parte da programação do festival Tropixel Labs e da Semana Nacional de Ciência e Tecnologia. Acontece no auditório da Escola Técnica Municipal Tancredo Neves (Av. Rio Grande do Sul, 600 - Centro, Ubatuba - mapa).
 
