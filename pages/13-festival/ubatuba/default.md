@@ -50,6 +50,8 @@ O Festival terá cobertura em tempo real pela internet (twitter e facebook). Alg
 
 ## Mais sobre a cidade
 
+![](sobre-ubatuba.jpg)
+
 Ubatuba, localizada no litoral norte do estado de São Paulo, é uma cidade de grande diversidade cultural, social e religiosa. À importância das comunidades tradicionais - caiçaras, quilombolas e indígenas - somam-se correntes migratórias de diversas épocas e origens, intelectuais e artistas radicados, empresários em busca de qualidade de vida, profissionais autônomos em rota de fuga das cidades grandes. Tem um inestimável patrimônio natural, com a maior cobertura proporcional de mata atlântica do Estado, e mais de quatro séculos de história.
 
 Uma grande proporção da população utiliza bicicletas como meio de transporte cotidiano. A cidade conta com cerca de uma centena de fantásticas praias, além de uma imensa biodiversidade. A sociedade civil participa ativamente da discussão sobre o estado atual e da elaboração de planos participativos para o futuro.
