@@ -12,13 +12,13 @@ O Festival Tropixel – Arte, Ciência, Tecnologia e Sociedade reuniu em outubro
 
 Saiba mais:
 
-- Eixos temáticos do Tropixel 2013;
-- Cobertura na imprensa e relatos de participantes;
-- Chamada por propostas de participação;
-- Programação em Ubatuba;
-- Informações práticas;
-- Convidadxs;
-- Apoio.
+- [Eixos temáticos](eixos-tematicos) do Tropixel 2013;
+- [Cobertura na imprensa](imprensa) e relatos de participantes;
+- [Chamada](chamada) por propostas de participação;
+- Programação em [Ubatuba](ubatuba);
+- [Informações práticas](info);
+- [Convidadxs](pessoas);
+- [Apoio](apoio).
 
 O Festival Tropixel de 2013 foi articulado pelo núcleo [Ubalab](https://wiki.ubatuba.cc/ubalab:ubalab) e pela [UFJF](http://ufjf.br/) junto a uma comissão organizadora com abrangência nacional, bem como grupos e instituições locais. Grande parte da programação do festival em Ubatuba foi definida a partir de uma convocatória por propostas de participação.
 
@@ -47,4 +47,3 @@ Escola Técnica de Ubatuba - Centro Paula Souza, Escola Municipal Tancredo de Al
 - Ecotrip Hostel
 - Padaria Integrale
 - Associação Comercial de Ubatuba
-
