@@ -1,5 +1,5 @@
 ---
-title: '1Mostra Bio-fiction'
+title: 'Mostra Bio-fiction'
 allowCSS: default
 allowJS: default
 show_header_image: false
