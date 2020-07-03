@@ -16,4 +16,8 @@ show_clickthrough: true
 
 ## Passado
 
-Tropixel surgiu em 2013, com a realização do [Festival Tropixel](../13-festival) em Juiz de Fora e Ubatuba (veja a repercussão do Festival em nossa [página de imprensa](../13-festival/imprensa)). Em 2014, Ubatuba sediou o [Ensaio Tropixel](../14-ensaio) em parceria com Labmovel. No ano seguinte, foram realizados o [Tropixel Ciência Aberta](../15-ciencia-aberta) (junho) e o [Tropixel Labs](../15-labs) (outubro), ambos em Ubatuba. 
+Tropixel surgiu em 2013, com a realização do [Festival Tropixel](../13-festival) em Juiz de Fora e Ubatuba (veja a repercussão do Festival em nossa [página de imprensa](../13-festival/imprensa)). Em 2014, Ubatuba sediou o [Ensaio Tropixel](../14-ensaio) em parceria com Labmovel. No ano seguinte, foram realizados o [Tropixel Ciência Aberta](../15-ciencia-aberta) (junho) e o [Tropixel Labs](../15-labs) (outubro), ambos em Ubatuba.
+
+## Redes Sociais
+
+Não confiamos nessas redes nem em suas motivações, mas estamos nelas: [Facebook](https://facebook.com/tropixelorg) e [Twitter](https://twitter.com/tropixel_org) (este bem desatualizado)
