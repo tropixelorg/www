@@ -59,3 +59,7 @@ Maria Ptqk (Bilbao 1976, Espanha) é produtora cultural e pesquisadora independe
 ## Raquel Rennó
 
 Professora adjunta do Instituto de Artes e Design da Universidade Federal de Juiz de Fora. Doutora em Comunicação e Semiótica pela Pontifícia Universidade Católica de São Paulo (2007). Durante o ano de 2010 foi pesquisadora pós-doutoral do departamento de fotônica da Universidade Mackenzie. É consultora dos cursos de extensão universitária em Arte e Tecnologia da UOC (Universitad Oberta de Catalunya), pesquisadora-líder do grupo de estudos em Práticas Artísticas, Espacialidade e Ciências da Vida (UFJF/CNPQ) e membro do International Society for Biosemiotics e do International Center for Info Ethics (ICIE, ZKM, Karlsruhe). 
+
+## Rogério Lourenço
+
+Rogério Lourenço é etnógrafo, pesquisador do Laboratório de Estudos Do Discurso Imagem e Som do Museu Nacional no Rio de Janeiro. Tem formação em graduação em Ciências Sociais (UFRJ), mestrado em Comunicação (UFF), pesquisador visitante para o CNN/Turner Learning/Canal Futura Communications visitant scholarship  (Georgia State University), Pós-graduação em Gramática Gerativa e Estudos da Cognição (Museu Nacional/UFRJ) e doutorando em Linguística (UFRJ). Tem trabalhos com vídeo popular, criação de acervos digitais, educação popular, pesquisa de texto, imagem e som. Pesquisa as interfaces entre ciência, cultura e linguagem, em aproximações com a arte como forma de produção de conhecimento.
