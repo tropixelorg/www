@@ -10,9 +10,10 @@ show_clickthrough: true
 
 *Tropixel é uma comunidade que atua nas fronteiras entre cultura, ciência, tecnologia e sociedade.*
 
-- Conversas organizadas na **[Rede Tropixel](https://rede.tropixel.org)**, em especial construindo uma programação (ou algo assim) chamada **[Tropixel Nós](https://rede.tropixel.org/c/nos/23)**.
+- Conversas organizadas na **[Rede Tropixel](https://rede.tropixel.org)**.
 - O **Boteco Tropixel** abre quando tem cliente - em especial nas tardes de sábado. Acontece em algum canto da internet simultânea. Usualmente no canal tropixelbr do jitsi (sem link aqui pra não atrair robotos). 
 - O **Tropixel Café** é um [grupo no Telegram](https://t.me/joinchat/AEzTMlIS-eD3W_fs9Ta65A).
+- Sonhando com futuros regenerativos pro nosso lado do mundo.
 
 ## Passado
 
