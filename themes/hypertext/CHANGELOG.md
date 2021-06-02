@@ -1,3 +1,43 @@
+# v2.2.6
+## 03/09/2021
+1. [](#bug)
+    * Forgot to close main PHP file. Fixes that.
+2. [](#improved)
+    * Adds the option of _what kind_ of dates to show on collection pages. Formerly was "Last Modified", but can now be selected explicitly.
+
+# v2.2.5
+## 02/23/2021
+1. [](#bug)
+    * Some pages didn't properly reference translations for words like "Categories". This has been fixed.
+2. [](#improved)
+    * User [nicosomb](https://github.com/nicosomb) added French translations and the fixes above. Many thanks!
+    * **If you know a language besides English, please [feel free to contribute translations](https://github.com/artofthesmart/hypertext/blob/master/languages.yaml)!**
+
+# v2.2.4
+## 02/10/2021
+1. [](#bug)
+    * Fixes summary content display because sometimes it would repeat back escapated HTML instead of the contents of your page. Identified by [felixzwettler](https://github.com/felixzwettler).
+
+# v2.2.3
+## 01/09/2021
+1.  [](#new)
+    * Adds a visually impaired mode that replaces the default `<p>` and `<li>` font family of any style with the [Braille Institute's Atkinson Hyperlegible Font](https://brailleinstitute.org/freefont). This makes websites more readable at the click of a button, at the cost of ~100kb.
+2.  [](#improved)
+    * Makes `max-width` CSS required for all users instead of optional, greatly simplifying code. Yes, I know this is against the philosophy of the project but- frankly- HTML 3.2 couldn't have known about mobile devices.
+    * Nits and additions to documentation.
+
+# v2.2.2
+## 12/11/2020
+1.  [](#bug)
+    * User [roslavych](https://github.com/roslavych) identified and fixed an error in one of the CSS theme names.
+
+# v2.2.1
+## 08/30/2020
+
+1.  [](#bug)
+    * Logic problem with "Continue Reading..." feature fixed, thanks to [takanotume24](https://github.com/takanotume24).
+    * Fix to GPM version #s, also spotted by [takanotume24](https://github.com/takanotume24).
+
 # v2.2.0
 ## 04/28/2020
 

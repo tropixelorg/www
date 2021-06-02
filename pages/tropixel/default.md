@@ -6,7 +6,7 @@ show_header_image: false
 show_clickthrough: true
 ---
 
-![](https://wiki.ubatuba.cc/lib/exe/fetch.php?media=tropixel:logo-tropixel-20.png)
+![Tropixel Banner](https://wiki.ubatuba.cc/lib/exe/fetch.php?media=tropixel:banner.jpg)
 
 *Tropixel é uma comunidade que atua nas fronteiras entre cultura, ciência, tecnologia e sociedade.*
 
