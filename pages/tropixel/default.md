@@ -20,4 +20,4 @@ Tropixel surgiu em 2013, com a realização do [Festival Tropixel](../13-festiva
 
 ## Redes Sociais
 
-Não confiamos nessas redes nem em suas motivações, mas estamos nelas: [Facebook](https://facebook.com/tropixelorg) e [Twitter](https://twitter.com/tropixel_org) (este bem desatualizado)
+Não confiamos nessas redes nem em suas motivações, mas estamos nelas: [Facebook](https://facebook.com/tropixelorg) e [Twitter](https://twitter.com/tropixel_org) (ambas bem desatualizadas).
