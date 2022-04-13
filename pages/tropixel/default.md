@@ -16,7 +16,13 @@ show_clickthrough: true
 
 ## Origens
 
-Tropixel surgiu em 2013, com a realização do [Festival Tropixel](../13-festival) em Juiz de Fora e Ubatuba (veja a repercussão do Festival em nossa [página de imprensa](../13-festival/imprensa)). Em 2014, Ubatuba sediou o [Ensaio Tropixel](../14-ensaio) em parceria com Labmovel. No ano seguinte, foram realizados o [Tropixel Ciência Aberta](../15-ciencia-aberta) (junho) e o [Tropixel Labs](../15-labs) (outubro), ambos em Ubatuba. Em meio à pandemia de COVID-19, as pessoas voltaram a conversar em torno do Tropixel Café e do boteco Tropixel. Se tudo der certo faremos em 2023 um encontro comemorativo dos 10 anos desde a realização do primeiro Festival Tropixel.
+Tropixel surgiu em 2013, com a realização do [Festival Tropixel](../13-festival) em Juiz de Fora e Ubatuba (veja a repercussão do Festival em nossa [página de imprensa](../13-festival/imprensa)). Em 2014, Ubatuba sediou o [Ensaio Tropixel](../14-ensaio) em parceria com Labmovel. No ano seguinte, foram realizados o [Tropixel Ciência Aberta](../15-ciencia-aberta) (junho) e o [Tropixel Labs](../15-labs) (outubro), ambos em Ubatuba.
+
+Em meio à pandemia de COVID-19, as pessoas voltaram a conversar em torno do Tropixel Café e do boteco Tropixel.
+
+No fim de julho de 2022 vamos nos encontrar, novamente em Ubatuba.
+
+Se tudo der certo faremos em 2023 um encontro comemorativo dos 10 anos desde a realização do primeiro Festival Tropixel.
 
 ## Redes Sociais
 
