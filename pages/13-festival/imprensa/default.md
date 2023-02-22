@@ -11,7 +11,7 @@ show_clickthrough: true
 - 22/11/2013 - [Tropixel- arte, ciência, tecnologia e sociedade](https://extensao.milharal.org/2013/11/22/tropixel-arte-ciencia-tecnologia-e-sociedade/)
 - 08/11/2013 - [http://ecoarte.info/ecoarte/2013/11/empoderamento-cidadao-da-tecnologia/](http://ecoarte.info/ecoarte/2013/11/empoderamento-cidadao-da-tecnologia/)
 - 16/10/2013 - [Festival Tropixel reúne artistas, ativistas e pesquisadores no campus da UFJF](https://www.ufjf.br/arquivodenoticias/2013/10/festival-tropixel-reune-artistas-ativistas-e-pesquisadores-no-campus-da-ufjf/)
-- 11/10/2013 - [Tropixel: arte, ciencia y naturaleza en Brasil](https://vida.fundaciontelefonica.com/blog/tropixel-arte-ciencia-y-naturaleza-en-brasil/)
+- 11/10/2013 - [Tropixel: arte, ciencia y naturaleza en Brasil](https://web.archive.org/web/20220315171200/https://vida.fundaciontelefonica.com/blog/tropixel-arte-ciencia-y-naturaleza-en-brasil/)
 - 08/10/2013 - [O Guaruçá - Festival Tropixel, em Ubatuba](http://www.ubaweb.com/revista/g_mascara.php?grc=45875)
 - 30/09/2013 - [UFJF sedia 1ª etapa do Festival Tropixel de experimentação em arte e pesquisa em meio ambiente](https://www.ufjf.br/arquivodenoticias/2013/09/ufjf-sedia-1a-etapa-do-festival-tropixel-de-experimentacao-em-arte-e-pesquisa-em-meio-ambiente/)
 - 26/09/2013 - [Tropixel na cidade - Rádio Gaivota](https://soundcloud.com/gaivotafm/entrevista-com-felipe-fonseca)
