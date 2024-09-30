@@ -20,8 +20,6 @@ Tropixel surgiu em 2013, com a realização do [Festival Tropixel](../13-festiva
 
 Em meio à pandemia de COVID-19, as pessoas voltaram a conversar ao longo de 2020 em torno do Tropixel Café e do boteco Tropixel. No fim de julho de 2022 fizemos outro encontro em Ubatuba, o [Tropixel Sementes](https://wiki.ubatuba.cc/doku.php?id=tropixel:sementes).
 
-Se tudo der certo faremos em 2023 um encontro comemorativo dos 10 anos desde a realização do primeiro Festival Tropixel.
-
 ## Redes Sociais
 
 Não confiamos nessas redes nem em suas motivações, mas estamos nelas: [Facebook](https://facebook.com/tropixelorg) e [Twitter](https://twitter.com/tropixel_org) (ambas bem desatualizadas).
