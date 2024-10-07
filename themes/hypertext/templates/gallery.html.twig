@@ -1,7 +1,10 @@
-{% extends 'partials/base.html.twig' %}
+{{ photoswipe('photoswipe-gallery-id', 'a') }}
 
-{% block content %}
-    {{ page.content }}
-    {% include 'partials/gallery-block.html.twig' %}
-{% endblock %}
+<div id="photoswipe-gallery-id">
+    {% for item in page.media.images %}
+        <a href="{{ item.url|e }}" class="gallery-item" data-size="{{ item.width ~ 'x' ~ item.height }}">
+            <img src="{{ item.cropResize(500, 250).url|e }}" alt=""/>
+        </a>
+    {% endfor %}
+</div>
 
