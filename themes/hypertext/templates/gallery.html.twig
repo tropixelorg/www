@@ -3,18 +3,15 @@
 {% block content %}
     {{ page.content|raw }}
 
-    <ul>
     {% for image in page.media.images %}
-    <li>
         <div class="image-surround">
-            {{ image.lightbox(1024,768).cropResize(300,200).html|raw }}
+	  <a class="gallery" href="#" data-featherlight="{{ image|raw }}">
+<img src="{{ image|raw }}" width="300" height="200" alt="image-info"></a>
         </div>
         <div class="image-info">
             <h2>{{ image.meta.title }}</h2>
             <p>{{ image.meta.description }}</p>
         </div>
-    </li>
     {% endfor %}
-    </ul>
 
 {% endblock %}
