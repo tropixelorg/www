@@ -31,6 +31,9 @@ class Email
 
     protected $log;
 
+    protected $message;
+    protected $debug;
+
     public function __construct()
     {
         $this->initMailer();
@@ -82,35 +85,31 @@ class Email
     /**
      * Send email.
      *
-     * @param Message $message
-     * @param Envelope|null $envelope
+     * @param  Message  $message
+     * @param  Envelope|null  $envelope
      * @return int
      */
     public function send(Message $message, Envelope $envelope = null): int
     {
-        $status = '🛑 ';
-        $sent_msg = null;
-        $debug = null;
-
         try {
             $sent_msg = $this->transport->send($message->getEmail(), $envelope);
-            $return = 1;
-            $status = '✅';
-            $debug = $sent_msg->getDebug();
+            $status = 1;
+            $this->message = '✅';
+            $this->debug = $sent_msg->getDebug();
         } catch (TransportExceptionInterface $e) {
-            $return = 0;
-            $status .= $e->getMessage();
-            $debug = $e->getDebug();
+            $status = 0;
+            $this->message = '🛑 ' . $e->getMessage();
+            $this->debug = $e->getDebug();
         }
 
         if ($this->debug()) {
             $log_msg = "Email sent to %s at %s -> %s\n%s";
             $to = $this->jsonifyRecipients($message->getEmail()->getTo());
-            $msg = sprintf($log_msg, $to, date('Y-m-d H:i:s'), $status, $debug);
-            $this->log->addInfo($msg);
+            $message = sprintf($log_msg, $to, date('Y-m-d H:i:s'), $this->message, $this->debug);
+            $this->log->addInfo($message);
         }
 
-        return $return;
+        return $status;
     }
 
     /**
@@ -138,8 +137,9 @@ class Email
         $email = $message->getEmail();
 
         // Extend parameters with defaults.
-        $params += [
+        $defaults = [
             'bcc' => $config->get('plugins.email.bcc', []),
+            'bcc_name' => $config->get('plugins.email.bcc_name'),
             'body' => $config->get('plugins.email.body', '{% include "forms/data.html.twig" %}'),
             'cc' => $config->get('plugins.email.cc', []),
             'cc_name' => $config->get('plugins.email.cc_name'),
@@ -156,6 +156,12 @@ class Email
             'template' => false,
             'message' => $message
         ];
+
+        foreach ($defaults as $key => $value) {
+            if (!key_exists($key, $params)) {
+                $params[$key] = $value;
+            }
+        }
 
         if (!$params['to']) {
             throw new \RuntimeException($language->translate('PLUGIN_EMAIL.PLEASE_CONFIGURE_A_TO_ADDRESS'));
@@ -237,37 +243,38 @@ class Email
      */
     protected function processRecipients(string $type, array $params): array
     {
+        if (array_key_exists($type, $params) && $params[$type] === null) {
+            return [];
+        }
+
         $recipients = $params[$type] ?? Grav::instance()['config']->get('plugins.email.'.$type) ?? [];
 
         $list = [];
 
         if (!empty($recipients)) {
-            if (is_array($recipients) && Utils::isAssoc($recipients)) {
-                $list[] = $this->createAddress($recipients);
+            if (is_array($recipients)) {
+                if (Utils::isAssoc($recipients) || (count($recipients) ===2 && $this->isValidEmail($recipients[0]) && !$this->isValidEmail($recipients[1]))) {
+                    $list[] = $this->createAddress($recipients);
+                } else {
+                    foreach ($recipients as $recipient) {
+                        $list[] = $this->createAddress($recipient);
+                    }
+                }
             } else {
-                if (is_array($recipients)) {
-                    if (count($recipients) ===2 && $this->isValidEmail($recipients[0]) && is_string($recipients[1])) {
-                        $list[] = $this->createAddress($recipients);
-                    } else {
-                        foreach ($recipients as $recipient) {
-                            $list[] = $this->createAddress($recipient);
-                        }
+                if (is_string($recipients) && Utils::contains($recipients, ',')) {
+                    $recipients = array_map('trim', explode(',', $recipients));
+                    foreach ($recipients as $recipient) {
+                        $list[] = $this->createAddress($recipient);
                     }
                 } else {
-                    if (is_string($recipients) && Utils::contains($recipients, ',')) {
-                        $recipients = array_map('trim', explode(',', $recipients));
-                        foreach ($recipients as $recipient) {
-                            $list[] = $this->createAddress($recipient);
-                        }
-                    } else {
-                        if (!Utils::contains($recipients, ['<','>']) && ($params[$type."_name"])) {
-                            $recipients = [$recipients, $params[$type."_name"]];
-                        }
-                        $list[] = $this->createAddress($recipients);
+                    if (!Utils::contains($recipients, ['<','>']) && (isset($params[$type."_name"]))) {
+                        $recipients = [$recipients, $params[$type."_name"]];
                     }
+                    $list[] = $this->createAddress($recipients);
                 }
             }
         }
+
 
         return $list;
     }
@@ -443,6 +450,24 @@ class Email
         }
 
         return $transport;
+    }
+
+    /**
+     * Get any message from the last send attempt
+     * @return string|null
+     */
+    public function getLastSendMessage(): ?string
+    {
+        return $this->message;
+    }
+
+    /**
+     * Get any debug information from the last send attempt
+     * @return string|null
+     */
+    public function getLastSendDebug(): ?string
+    {
+        return $this->debug;
     }
 
     /**

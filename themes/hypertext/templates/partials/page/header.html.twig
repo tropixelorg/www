@@ -4,16 +4,14 @@
   <h1><a href="{{ home_url }}">{{ site.title|e('html') }}</a></h1>
 {% endif %}
 
-{% if site.metadata.description %}
-{{ html5 ? '<aside>' : '<p class="subtitle">' }}
-  {{ site.metadata.description }}
-{{ html5 ? '</aside>' : '</p>' }}
+{% if site.metadata.description and partials.header.show_subtitle %}
+<p class="subtitle">{{ site.metadata.description }}</p>
 {% endif %}
 
 {% block header_navigation %}
-    {% include 'partials/page/navigation.html.twig' %}
+  {% include 'partials/page/navigation.html.twig' %}
 {% endblock %}
 
 {% if grav.messages.all %}
-    {% include 'partials/page/messages.html.twig' %}
+  {% include 'partials/page/messages.html.twig' %}
 {% endif %}
