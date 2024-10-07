@@ -1,86 +1,90 @@
+{% set allowCSS = page.header.allowCSS == 'enabled' or
+                    (page.header.allowCSS|default('default') == 'default' and 
+                     style.allowCSS == '1') %}
+{% set allowJS  = page.header.allowJS  == 'enabled' or
+                    (page.header.allowJS|default('default') == 'default' and 
+                     style.allowJS == '1') %}
+{% set use_visually_impaired = style.visually_impared_mode|default(false) %}
+
+{% set stylesheets = ['air', 'hypertext++', 'latex', 'marx', 'milligram', 'modest', 'mvp', 'newcss-default', 'newcss-night', 'newcss-terminal', 'sakura', 'sakura-dark', 'sakura-dark-solarized', 'sakura-earthly', 'sakura-ink', 'sakura-pink', 'sakura-radical', 'sakura-vader', 'simple', 'stylize', 'tacit', 'tufte', 'water-dark', 'water-light', 'writ', 'yorha'] %}
+
+{# Set a stylesheet from the style config, then from the URI if available #}
+{% set stylesheet = uri.query('theme')|default(style.stylesheet) %}
+{% if stylesheet matches '/^\\d+$/' %}
+  {% set stylesheet = stylesheets[stylesheet % stylesheets|length] %}
+{% endif %}
+
+{# Always required and hard to serve via href. See docs. #}
+{% set required_styles %}
+  img { max-width: 100%; }
+
+  {# Max width and centering vs left alignment #}
+  body {
+    {% if style.width != 'default' %}
+      max-width: {{style.width}}px;
+    {% else %}
+      max-width: 100%;
+    {% endif %}
+
+    {# Reset to 8px, the Chrome default (`unset` doesnt work). #}
+    {% if style.configuration == 'default' %}
+      margin-left: 8px;
+      margin-right: 8px;
+    {% else %}
+      margin-left: auto;
+      margin-right: auto;
+    {% endif %}
+  }
+{% endset %}
+
+
+
+{# CONFIGURE THEME'S CSS FEATURES #}
+
+{# ------------------------------------------------------------------------ #}
+
 {% block stylehseets %}
 
-{# Add the stylesheet #}
-{# TODO: Add sourcing options from unpkg rather than locally #}
+{# Add the hypertext selected stylesheet #}
 {% if stylesheet != 'default' %}
+
   {% if style.include_type == 'inline' %}
-    {# User *explicitly* wants it imported in style tags #}
     <style>{{ include('css/' ~ stylesheet ~ '.css') }}</style>
-  {% elseif not style.allowCSS %}
+  
+  {% elseif not allowCSS %}
     {# User wants it via href, but doesn't have CSS pipeline running #}
     <link href="{{ url('theme://css/'~stylesheet~'.css') }}" rel="stylesheet" />
+    {% if use_visually_impaired %}<link href="{{ url('theme://css/visual-impaired.css') }}" rel="stylesheet" /> {% endif %}
+  
   {% else %}
-    {# User wants it href and is allowing CSS #}
+    {# User wants it href and is allowing CSS pipeline, so use that. #}
     {% do assets.addCss('theme://css/'~stylesheet~'.css') %}
+    {% if use_visually_impaired %}{% do assets.addCss('theme://css/visual-impaired.css') %} {%endif %}
   {% endif %}
-{% endif %}
+
+{% endif %} {# END if style isn't default #}
 {% endblock %}
 
 {% block javascripts %}
   {# Hypertext doesn't add any JS, but if it did it would go here. #}
 {% endblock %}
 
-{# Regular CSS/JS includes #}
+{# Regular CSS/JS includes, like from plugins #}
 {% block assets deferred %}
   {% if allowCSS %}{{ assets.css()|raw }}{% endif %}
   {% if allowJS %}{{ assets.js()|raw }}{% endif %}
 {% endblock %}
 
+{# Add any final required styling like max-width, centering, and user-provided values #}
 <style>
-{# This is the one piece of style that is practically unavoidable. 
-   Sorry, author's discretion. See website for details. #}
-img { max-width: 100%; }
+  {# Set by the theme. #}
+  {% autoescape false %}
+  {{ required_styles }}
 
-{# Hyperlegible font family declarations, if needed #}
-{% if style.visually_impared_mode|default(false) %}
-@font-face {
-  font-family: 'AtkinsonHL';
-  src: 
-       url('{{ theme_url }}/fonts/WOFF2/Atkinson-Hyperlegible-Regular-102a.woff2') format('woff2'), /* Super Modern Browsers */
-       url('{{ theme_url }}/fonts/WOFF/Atkinson-Hyperlegible-Regular-102.woff') format('woff'), /* Pretty Modern Browsers */
-       url('{{ theme_url }}/fonts/TTF/Atkinson-Hyperlegible-Regular-102.ttf')  format('truetype'); /* Safari, Android, iOS */
-}
-@font-face {
-  font-family: 'AtkinsonHL';
-  font-weight: bold;
-  src: 
-       url('{{ theme_url }}/fonts/WOFF2/Atkinson-Hyperlegible-Bold-102a.woff2') format('woff2'), /* Super Modern Browsers */
-       url('{{ theme_url }}/fonts/WOFF/Atkinson-Hyperlegible-Bold-102.woff') format('woff'), /* Pretty Modern Browsers */
-       url('{{ theme_url }}/fonts/TTF/Atkinson-Hyperlegible-Bold-102.ttf')  format('truetype'); /* Safari, Android, iOS */
-}
-@font-face {
-  font-family: 'AtkinsonHL';
-  font-style: italic;
-  src: 
-       url('{{ theme_url }}/fonts/WOFF2/Atkinson-Hyperlegible-Italic-102a.woff2') format('woff2'), /* Super Modern Browsers */
-       url('{{ theme_url }}/fonts/WOFF/Atkinson-Hyperlegible-Italic-102.woff') format('woff'), /* Pretty Modern Browsers */
-       url('{{ theme_url }}/fonts/TTF/Atkinson-Hyperlegible-Italic-102.ttf')  format('truetype'); /* Safari, Android, iOS */
-}
-@font-face {
-  font-family: 'AtkinsonHL';
-  font-weight: bold;
-  font-style: italic;
-  src: 
-       url('{{ theme_url }}/fonts/WOFF2/Atkinson-Hyperlegible-BoldItalic-102a.woff2') format('woff2'), /* Super Modern Browsers */
-       url('{{ theme_url }}/fonts/WOFF/Atkinson-Hyperlegible-BoldItalic-102.woff') format('woff'), /* Pretty Modern Browsers */
-       url('{{ theme_url }}/fonts/TTF/Atkinson-Hyperlegible-BoldItalic-102.ttf')  format('truetype'); /* Safari, Android, iOS */
-}
-p, li { font-family: 'AtkinsonHL'; }
-{% endif %} {# End Hyperlegible declarations. #}
+  {# User's custom styles take priority. #}
+  {{ style.customCSS }}
 
-body {
-{{ style.width != 'default' ? "max-width: #{style.width}px;" : ""}}
-{# Set only left and right margins because some stylesheets set vertical. #}
-{# Also reset to 8px, the Chrome default (`unset` doesn't work). #}
-{% if style.configuration == 'default' %}
-    margin-left: 8px;
-    margin-right: 8px;
-{% else %}
-    margin-left: auto;
-    margin-right: auto;
-{% endif %}
-} {# End body section #}
-
-{# User's custom styles *always* take priority #}
-{{ style.customCSS != '' ? style.customCSS : "" }}
+  {# Page's custom styles take maximum priority. #}
+  {{ page.header.customCSS}}
+  {% endautoescape %}
 </style>

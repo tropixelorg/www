@@ -80,13 +80,13 @@ form:
                       toggleable: true
                       label: Header image file
                       help: Image filename that exists in the page folder to be shown at the top of this page. If not provided, and header image is enabled, Hypertext will use the first image found.
-                      placeholder: my_image.jpg
+                      placeholder: header.jpg
                     header.thumbnail_image_file:
                       type: text
                       toggleable: true
                       label: Thumbnail image file
                       help: Image filename that exists in the page folder. If not provided, the header image will be used if possible.
-                      placeholder: my_thumbnail.jpg
+                      placeholder: thumbnail.jpg
 
                     header.summary.delimiter:
                       type: text
@@ -112,6 +112,28 @@ form:
                       help: When disabled, this page will not render a link to read more content in this page after the snippet.
                       default: 1
                       highlight: 1
+                      options:
+                        1: Enabled
+                        0: Disabled
+                      validate:
+                        type: bool
+
+                    header.show_date:
+                      type: select
+                      label: Add Date
+                      help: Locally configures whether the date that the page was published will appear on this page. You can set this globally in theme settings.
+                      classes: fancy
+                      options:
+                        default: Use global setting
+                        enabled: Show date
+                        disabled: Hide date
+                    
+                    header.is_headless:
+                      type: toggle
+                      label: Headless rendering
+                      help: When enabled, this page will not render headers, footers, or anything else except the page's content.
+                      default: 0
+                      highlight: 0
                       options:
                         1: Enabled
                         0: Disabled
