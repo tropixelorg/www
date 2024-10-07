@@ -1,4 +1,6 @@
-{% embed 'default.html.twig' %}
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
 
 {{ photoswipe('photoswipe-gallery-id', 'a') }}
 
@@ -10,4 +12,4 @@
     {% endfor %}
 </div>
 
-{% endembed %}
+{% endblock %}
