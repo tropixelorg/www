@@ -5,8 +5,8 @@
 
     {% for image in page.media.images %}
         <div class="image-surround">
-	  <a class="gallery" href="#" data-featherlight="{{ image|raw }}">
-<img src="{{ image|raw }}" width="300" height="200" alt="image-info"></a>
+		<a class="gallery" href="#" data-featherlight="{{ image }}">
+		<img src="{{ image }}" width="300" height="200" alt="image-info"></a>
         </div>
         <div class="image-info">
             <h2>{{ image.meta.title }}</h2>
