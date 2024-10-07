@@ -7,7 +7,7 @@
     {% for image in page.media.images %}
     <li>
         <div class="image-surround">
-            {{ image.cropResize(300,200).html|raw }}
+            {{ image.cropResize(1600,1200).html|raw }}
         </div>
         <div class="image-info">
             <h2>{{ image.meta.title }}</h2>
