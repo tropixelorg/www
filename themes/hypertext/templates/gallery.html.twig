@@ -6,9 +6,9 @@
 
 <div id="photoswipe-gallery-id">
     {% for item in page.media.images %}
-#        <a href="{{ item.url|e }}" class="gallery-item" data-size="{{ item.width ~ 'x' ~ item.height }}">
+<!--        <a href="{{ item.url|e }}" class="gallery-item" data-size="{{ item.width ~ 'x' ~ item.height }}"> -->
             <img src="{{ item.lighbox(1024,768).cropResize(500, 250).url|e }}" alt=""/>
-#        </a>
+<!--        </a> -->
 
     {% endfor %}
 </div>
