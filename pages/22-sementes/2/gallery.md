@@ -6,5 +6,7 @@ Documentação do segundo dia de atividades do festival [Tropixel Sementes](../)
 
 Imagens de [Manu Rabinovich](https://manoelacardoso.wixsite.com/manoelarabinovitch). Disponíveis também no [repositório git deste site](https://github.com/tropixelorg/www/tree/master/pages/22-sementes/2).
 
+Ver também: [primeiro dia](../1), [terceiro dia](../3).
+
 ## Imagens
 

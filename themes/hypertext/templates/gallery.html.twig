@@ -4,11 +4,10 @@
 
     {{ page.content|raw }}
 
-
 <div id="photoswipe-gallery-id">
     {% for item in page.media.images %}
         <a rel="lightbox" data-width="600" data-height="400" href="{{ item.url|e }}" class="gallery-item" ">
-            <img src="{{ item.cropResize(500, 250).url|e }}" alt=""/>
+            <img src="{{ item.cropResize(400,210).url|e }}" alt=""/>
         </a>
     {% endfor %}
 </div>
