@@ -1,17 +1,16 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
+
     {{ page.content|raw }}
 
-    {% for image in page.media.images %}
-        <div class="image-surround">
-		<a class="gallery" href="#" data-featherlight="{{ image }}">
-		<img src="{{ image }}" width="300" height="200" alt="image-info"></a>
-        </div>
-        <div class="image-info">
-            <h2>{{ image.meta.title }}</h2>
-            <p>{{ image.meta.description }}</p>
-        </div>
+
+<div id="photoswipe-gallery-id">
+    {% for item in page.media.images %}
+        <a rel="lightbox" data-width="600" data-height="400" href="{{ item.url|e }}" class="gallery-item" ">
+            <img src="{{ item.cropResize(500, 250).url|e }}" alt=""/>
+        </a>
     {% endfor %}
+</div>
 
 {% endblock %}
