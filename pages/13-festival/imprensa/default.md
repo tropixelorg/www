@@ -8,8 +8,6 @@ show_date: default
 is_headless: false
 ---
 
----
-
 ## Clipping
 
 - 22/11/2013 - [Tropixel- arte, ciência, tecnologia e sociedade](https://extensao.milharal.org/2013/11/22/tropixel-arte-ciencia-tecnologia-e-sociedade/)
@@ -29,8 +27,6 @@ is_headless: false
 - [Informe Tropixel - 24/10](https://archive.org/details/Tropixel-131024) - com Alex Garcia (Fab Social)
 - [Informe Tropixel - 25/10](https://archive.org/details/Tropixel-131025) - Jonaya Castro e Evelyn Gomes (Ônibus Hacker)
 
----
-
 ## Imagens
 
 - Grupo no [Flickr](http://www.flickr.com/groups/tropixel/)
@@ -40,5 +36,3 @@ is_headless: false
 - 03/12/13 - [Assombrações de Yperoig](https://vimeo.com/80779975) por paoleb;
 - 22/11/13 - [Tropixel-GlitchReporting_01](http://vimeo.com/80023219) (Vídeo);
 - [LABMOVEL no Tropixel 2013](http://vimeo.com/79419980) por Labmovel.
-
----
