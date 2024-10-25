@@ -4,6 +4,8 @@ allowCSS: default
 allowJS: default
 show_header_image: false
 show_clickthrough: true
+show_date: default
+is_headless: false
 ---
 
 ![Tropixel Banner](https://wiki.ubatuba.cc/lib/exe/fetch.php?media=tropixel:banner.jpg)
@@ -15,7 +17,7 @@ show_clickthrough: true
 
 ## Origens
 
-Tropixel surgiu em 2013, com a realização do [Festival Tropixel](../13-festival) em Juiz de Fora e Ubatuba (veja a repercussão do Festival na [página de imprensa](../13-festival/imprensa)) daquela edição. Em 2014, Ubatuba sediou o [Ensaio Tropixel](../14-ensaio) em parceria com Labmovel. No ano seguinte, foram realizados o [Tropixel Ciência Aberta](../15-ciencia-aberta) (junho) e o [Tropixel Labs](../15-labs) (outubro), ambos em Ubatuba.
+Tropixel surgiu em 2013, com a realização do [Festival Tropixel](../13-festival) em Juiz de Fora e Ubatuba (veja a repercussão do Festival na [página de imprensa](../13-festival/imprensa) daquela edição). Em 2014, Ubatuba sediou o [Ensaio Tropixel](../14-ensaio) em parceria com Labmovel. No ano seguinte, foram realizados o [Tropixel Ciência Aberta](../15-ciencia-aberta) (junho) e o [Tropixel Labs](../15-labs) (outubro), ambos em Ubatuba.
 
 Em meio à pandemia de COVID-19, as pessoas voltaram a conversar ao longo de 2020 em torno do Tropixel Café e do boteco Tropixel. Tropixel então adquiriu características de uma rede aberta, sem pauta definida.
 
