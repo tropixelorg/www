@@ -21,7 +21,7 @@ Tropixel surgiu em 2013, com a realização do [Festival Tropixel](../13-festiva
 
 Em meio à pandemia de COVID-19, as pessoas voltaram a conversar ao longo de 2020 em torno do Tropixel Café e do boteco Tropixel. Tropixel então adquiriu características de uma rede aberta, sem pauta definida.
 
-No fim de julho de 2022 fizemos outro encontro em Ubatuba, o [Tropixel Sementes](https://wiki.ubatuba.cc/doku.php?id=tropixel:sementes).
+No fim de julho de 2022 fizemos outro encontro em Ubatuba, o [Tropixel Sementes](https://wiki.ubatuba.cc/doku.php?id=tropixel:tropixel).
 
 ## Redes Sociais
 
