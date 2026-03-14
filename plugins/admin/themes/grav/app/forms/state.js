@@ -13,15 +13,8 @@ const DOMBehaviors = {
 
     preventUnload() {
         let selector = '[name="task"][value^="save"], [data-delete-action], [data-flex-safe-action]';
-        // jQuery 3.x removed $._data, use $._data only if available (jQuery < 3.0)
-        // or check with jQuery's internal data store for jQuery >= 3.0
-        try {
-            const hasData = typeof $._data === 'function';
-            if (hasData && $._data(window, 'events') && ($._data(window, 'events').beforeunload || []).filter((event) => event.namespace === '_grav').length) {
-                return;
-            }
-        } catch (e) {
-            // $._data not available in jQuery 3.x+, continue with adding event handler
+        if ($._data(window, 'events') && ($._data(window, 'events').beforeunload || []).filter((event) => event.namespace === '_grav').length) {
+            return;
         }
 
         // Allow some elements to leave the page without native confirmation
@@ -40,15 +33,8 @@ const DOMBehaviors = {
     preventClickAway() {
         let selector = 'a[href]:not([href^="#"]):not([target="_blank"]):not([href^="javascript:"])';
 
-        // jQuery 3.x removed $._data, use $._data only if available (jQuery < 3.0)
-        try {
-            const hasData = typeof $._data === 'function';
-            const element = $(selector).get(0);
-            if (element && hasData && $._data(element, 'events') && ($._data(element, 'events').click || []).filter((event) => event.namespace === '_grav')) {
-                return;
-            }
-        } catch (e) {
-            // $._data not available in jQuery 3.x+, continue with adding event handler
+        if ($._data($(selector).get(0), 'events') && ($._data($(selector).get(0), 'events').click || []).filter((event) => event.namespace === '_grav')) {
+            return;
         }
 
         // Prevent clicking away if the form state is dirty

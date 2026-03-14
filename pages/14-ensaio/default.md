@@ -30,8 +30,7 @@ Caminhadas...
 
 Oficina com o artista Fernando Velázquez, em parceria com o Labmovel.
 
-    A oficina gratuita aconteceu no sábado 05/04 e domingo 06/04, saindo da Escola Técnica Tancredo Neves.
-    É obrigatória a inscrição até segunda-feira, 24/03/2014, através deste link. Inscrições encerradas.
+A oficina gratuita aconteceu no sábado 05/04 e domingo 06/04, saindo da Escola Técnica Tancredo Neves.
 
 Apresentação
 

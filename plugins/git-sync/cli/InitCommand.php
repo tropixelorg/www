@@ -41,7 +41,5 @@ class InitCommand extends ConsoleCommand
         $plugin->addRemote();
 
         $this->output->writeln('completed.');
-
-        return 0;
     }
 }

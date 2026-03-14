@@ -10,6 +10,6 @@ return array(
     'Grav\\Plugin\\Login\\' => array($baseDir . '/classes'),
     'Grav\\Plugin\\Console\\' => array($baseDir . '/cli'),
     'DASPRiD\\Enum\\' => array($vendorDir . '/dasprid/enum/src'),
-    'Birke\\' => array($vendorDir . '/mober/rememberme/src'),
+    'Birke\\' => array($vendorDir . '/birke/rememberme/src'),
     'BaconQrCode\\' => array($vendorDir . '/bacon/bacon-qr-code/src'),
 );

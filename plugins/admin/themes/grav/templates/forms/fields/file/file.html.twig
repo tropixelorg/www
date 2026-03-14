@@ -1,7 +1,7 @@
 {% extends "forms/field.html.twig" %}
 
 {% macro bytesToSize(bytes) -%}
-{% apply spaceless %}
+    {% spaceless %}
         {% set kilobyte = 1024 %}
         {% set megabyte = kilobyte * 1024 %}
         {% set gigabyte = megabyte * 1024 %}
@@ -18,7 +18,7 @@
         {% else %}
             {{ (bytes / terabyte)|number_format(2, '.') ~ ' TB' }}
         {% endif %}
-    {% endapply %}
+    {% endspaceless %}
 {%- endmacro %}
 
 {% macro preview(path, value, global) %}

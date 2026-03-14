@@ -46,8 +46,6 @@ class SyncCommand extends ConsoleCommand
         $plugin->sync();
 
         $this->output->writeln('completed.');
-
-        return 0;
     }
 }
 

@@ -71,8 +71,6 @@ class PasswdCommand extends ConsoleCommand
         $this->output->writeln('');
         $this->output->writeln('<green>User / Password updated.</green>');
         $this->output->writeln('');
-
-        return 0;
     }
 
     private function console_header($readable, $cmd = '', $remote_action = false)

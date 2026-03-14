@@ -98,8 +98,8 @@ class GitSyncPlugin extends Plugin
         $secret = $config['webhook_secret'] ?? false;
         $enabled = $config['webhook_enabled'] ?? false;
 
-        if ($enabled && $route === $webhook && $_SERVER['REQUEST_METHOD'] === 'POST') {
-            if ($secret) {
+        if ($route === $webhook && $_SERVER['REQUEST_METHOD'] === 'POST') {
+            if ($secret && $enabled) {
                 if (!$this->isRequestAuthorized($secret)) {
                     http_response_code(401);
                     header('Content-Type: application/json');
@@ -234,8 +234,7 @@ class GitSyncPlugin extends Plugin
      */
     public function synchronize()
     {
-        // Skip if git-sync is not properly configured
-        if (!Helper::isGitSyncReady()) {
+        if (!Helper::isGitInstalled() || !Helper::isGitInitialized()) {
             return true;
         }
 
@@ -272,8 +271,7 @@ class GitSyncPlugin extends Plugin
      */
     public function reset()
     {
-        // Skip if git-sync is not properly configured
-        if (!Helper::isGitSyncReady()) {
+        if (!Helper::isGitInstalled() || !Helper::isGitInitialized()) {
             return true;
         }
 
@@ -401,15 +399,12 @@ class GitSyncPlugin extends Plugin
             if ($isPluginRoute) {
                 $this->git->setConfig($obj->toArray());
 
-                // Only initialize repository if properly configured
-                if (Helper::isGitSyncConfigured()) {
-                    // initialize git if not done yet
-                    $this->git->initializeRepository();
+                // initialize git if not done yet
+                $this->git->initializeRepository();
 
-                    // set committer and remote data
-                    $this->git->setUser();
-                    $this->git->addRemote();
-                }
+                // set committer and remote data
+                $this->git->setUser();
+                $this->git->addRemote();
             }
         }
 
