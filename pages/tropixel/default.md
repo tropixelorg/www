@@ -13,7 +13,7 @@ is_headless: false
 *Tropixel é uma comunidade de pessoas atuando nas fronteiras entre cultura, ciência, tecnologia e sociedade.*
 
 - O **Boteco Tropixel** abre quando tem cliente. Acontece em algum canto da internet simultânea. Usualmente no canal tropixelbr do jitsi (sem link aqui pra não atrair robotos).
-- O **Tropixel Café** é um [grupo no Telegram](https://t.me/joinchat/AEzTMlIS-eD3W_fs9Ta65A).
+- O **Tropixel Café** é um [grupo no Telegram](https://t.me/tropixelcafe).
 
 ## Origens
 
@@ -21,7 +21,9 @@ Tropixel surgiu em 2013, com a realização do [Festival Tropixel](../13-festiva
 
 Em meio à pandemia de COVID-19, as pessoas voltaram a conversar ao longo de 2020 em torno do Tropixel Café e do boteco Tropixel. Tropixel então adquiriu características de uma rede aberta, sem pauta definida.
 
-No fim de julho de 2022 fizemos outro encontro em Ubatuba, o [Tropixel Sementes](https://wiki.ubatuba.cc/doku.php?id=tropixel:sementes).
+No fim de julho de 2022 fizemos outro encontro em Ubatuba, o [Tropixel Sementes](https://wiki.ubatuba.cc/doku.php?id=tropixel:tropixel). E em 2025 aconteceu o primeiro evento fora de Ubatuba - [Tropixel Quantumfagia](https://quantumfagia.tropixel.org/), no Rio de Janeiro.
+
+Para 2026, estamos começando a desenhar os [Ciclos Tropixel](https://wiki.ubatuba.cc/doku.php?id=tropixel:ciclos).
 
 ## Redes Sociais
 
