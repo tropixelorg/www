@@ -13,7 +13,7 @@ is_headless: false
 *Tropixel é uma comunidade de pessoas atuando nas fronteiras entre cultura, ciência, tecnologia e sociedade.*
 
 - O **Boteco Tropixel** abre quando tem cliente. Acontece em algum canto da internet simultânea. Usualmente no canal tropixelbr do jitsi (sem link aqui pra não atrair robotos).
-- O **Tropixel Café** é um [grupo no Telegram](https://t.me/tropixelcafe).
+- O **Tropixel Café** é um grupo no [Matrix](https://matrix.to/#/#tropixel:matrix.org) / [Telegram](https://t.me/tropixelcafe)
 
 ## Origens
 
